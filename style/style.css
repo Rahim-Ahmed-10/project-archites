@@ -8,3 +8,46 @@
   width: 400;
   font-style: normal;
 }
+
+/* Shared styles */
+.display-flex{
+  display: flex;
+}
+
+/* dark02 */
+.text-gray{
+  color:#424242
+}
+
+/* dark03 */
+.text-light-gray{
+  color: #727272;
+}
+
+ .bg-light{
+ background-color: rgba(255,114,14,0.1);
+ }
+
+/* Header styles */
+
+
+/* Navbar relateb styles */
+
+.navbar{
+  justify-content: space-between;
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-weight: 500;
+  
+}
+.navbar,.bannar{
+  max-width: 1450px;
+  margin: 0 auto;
+}
